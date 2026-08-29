@@ -7,15 +7,17 @@
 
 ## Tujuan Praktikum
 
-Praktikum Modul 8 bertujuan untuk mempelajari pembuatan REST API sederhana menggunakan **FastAPI** dan **SQLModel**. Pada praktikum ini dibuat database SQLite, tabel produk, data awal produk, serta API untuk menampilkan data produk melalui browser.
+Praktikum Modul 8 bertujuan untuk mempelajari pembuatan **RESTful API** menggunakan **FastAPI** dan **SQLModel**.
+
+Pada praktikum ini dilakukan pembuatan database SQLite, pembuatan tabel produk, pengisian data produk, pembuatan endpoint API, serta pengujian API menggunakan `curl` dan browser.
 
 ---
 
 ## 1. Persiapan Environment
 
-Praktikum dilakukan menggunakan WSL Ubuntu dengan Python 3.14.4.
+Praktikum dilakukan menggunakan **WSL Ubuntu**.
 
-Virtual environment dibuat menggunakan `uv`:
+Virtual environment dibuat menggunakan `uv` dengan Python 3.14.4.
 
 ```bash
 cd ~
