@@ -5,29 +5,21 @@
 
 ---
 
-## 1. Tujuan Praktikum
+## Tujuan Praktikum
 
-Praktikum Modul 8 bertujuan untuk mempelajari pembuatan REST API sederhana menggunakan **FastAPI** dan **SQLModel**.
-
-Pada praktikum ini dilakukan beberapa kegiatan, yaitu:
-
-- Membuat virtual environment menggunakan `uv`.
-- Menginstal FastAPI dan SQLModel.
-- Membuat database SQLite.
-- Membuat model tabel menggunakan SQLModel.
-- Membuat tabel database.
-- Menambahkan data awal ke database.
-- Membuat API menggunakan FastAPI.
-- Menjalankan API menggunakan Uvicorn.
-- Mengakses API melalui browser dan `curl`.
+Praktikum Modul 8 bertujuan untuk mempelajari pembuatan REST API sederhana menggunakan **FastAPI** dan **SQLModel**. Pada praktikum ini dibuat database SQLite, tabel produk, data awal produk, serta API untuk menampilkan data produk melalui browser.
 
 ---
 
-## 2. Persiapan Environment
+## 1. Persiapan Environment
 
-Praktikum dilakukan menggunakan **WSL Ubuntu**.
+Praktikum dilakukan menggunakan WSL Ubuntu dengan Python 3.14.4.
 
-Versi Python yang digunakan:
+Virtual environment dibuat menggunakan `uv`:
 
 ```bash
-python --version
+cd ~
+mkdir -p src/modul-08
+cd ~/src/modul-08
+uv venv --python 3.14.4
+source .venv/bin/activate
